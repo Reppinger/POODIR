@@ -12,4 +12,5 @@ RSpec.describe 'Gear' do
   it 'should calculate gear_inches' do
     expect(gear.gear_inches).to be_within(0.01).of(137.09)
   end
+
 end
